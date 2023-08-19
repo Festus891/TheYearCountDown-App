@@ -100,9 +100,11 @@ img{
 } 
 
 .flex-container >  .content{
-    border: 2px solid black;
-}
-
+        border: 2px solid black;
+/*         padding: 10px; */
+/*         height: fit-content; */
+        width: max-content;
+ }
 .flex-container > div > h3{
    font-size: 3em;
    text-align: center; 
@@ -140,7 +142,7 @@ img{
         .flex-container >  .content{
             border: 2px solid black;
             padding: 10px;
-            width : 40px
+    
         }
 
         .take_charge > h2{

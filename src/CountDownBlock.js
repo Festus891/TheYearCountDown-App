@@ -40,7 +40,7 @@ function CountDownBlock() {
         </div>
 
         <div className='take_charge'>
-                <h2>Keep track of the Numbers of Months, weeks, days we have left in this year</h2>
+                <h2>Keep track of the Numbers of Months, weeks, days left in a year</h2>
         </div>
 
         

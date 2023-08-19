@@ -142,7 +142,7 @@ img{
         .flex-container >  .content{
             border: 2px solid black;
             padding: 10px;
-            height: fit-content;
+/*             height: fit-content; */
     
         }
 
@@ -163,7 +163,7 @@ img{
         align-items: center;
         padding: auto;
         width: fit-content;
-/*         height: 80%; */
+        height: 80%;
     }
 
 .main_container{

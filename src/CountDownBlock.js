@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './CountDown.css';
-import clock from './clock.png'
 
 function CountDownBlock() {
     const[months, setMonths] = useState(0)
@@ -37,46 +36,36 @@ function CountDownBlock() {
   return (
     <div className="main_container">
         <div className='header'>
-            <div className='header_left'>
-                <h1>CountDownApp</h1>
-            </div>
-            
+            <h1>CountDownApp</h1>
         </div>
 
         <div className='take_charge'>
-                <h2>Take charge of Your Life Now...</h2>
+                <h2>Keep track of the Numbers of Months, weeks, days we have left in this year</h2>
         </div>
 
-        <div className='text'>
-            <p>Now is the time you have to work on yourself</p>
-            <p> Be Aware The time is Ticking {seconds}</p>
-            <p>The Year is running Out - <span>STAY MOTIVATED KING</span></p>
-
-        </div>
-
-        <img src={clock} alt='clock' /> 
+        
         <div className="flex-container">
-            <div className="month">
+            <div className="content">
                 <h3 id = "months">{months}</h3>
                 <p>months</p>
             </div>
-            <div className="wee">
+            <div className="content">
                 <h3 id="weeks">{weeks}</h3>
                 <p>weeks</p>
             </div>
-            <div className="days">
+            <div className="content">
                 <h3 id = "days">{days}</h3>
                 <p>days</p>
             </div>
-            <div className="hours">
+            <div className="content">
                 <h3 id = "hours">{hours}</h3>
                 <p>hours</p>
             </div>
-            <div className="minutes">
+            <div className="content">
                 <h3 id = "minutes">{mins}</h3>
                 <p>minutes</p>
             </div>
-            <div className="seconds">
+            <div className="content">
                 <h3 id = "seconds">{seconds}</h3>
                 <p>seconds</p>
             </div>

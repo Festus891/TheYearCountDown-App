@@ -159,13 +159,13 @@ img{
     .flex-container{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+/*         justify-content: space-between; */
         padding: auto;
         width: 100%;
         height: 80%;
     }
 
-    .main_container{
+.main_container{
     height: 100%;
 
 }

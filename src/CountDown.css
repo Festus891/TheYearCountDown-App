@@ -155,9 +155,13 @@ img{
         justify-content: space-between;
         padding: auto;
         width: 100%;
-        /* margin-top: -10px; */
-        /* flex-direction: column; */
-    } 
+        height: 80%;
+    }
+
+    .main_container{
+    height: 100%;
+
+}
 
     .flex-container > div > h3{
         font-size: 1.2em;
@@ -168,6 +172,7 @@ img{
         border: 2px solid black;
         padding: 10px;
         height: fit-content;
+         margin-top: 5px;
     }
 
 

@@ -130,6 +130,7 @@ img{
         .flex-container{ 
             padding: auto 40px;
             width: max-content;
+            
          } 
 
         .flex-container > div > h3{
@@ -141,6 +142,7 @@ img{
         .flex-container >  .content{
             border: 2px solid black;
             padding: 10px;
+            height: fit-content;
     
         }
 
@@ -160,7 +162,7 @@ img{
         flex-direction: column;
         align-items: center;
         padding: auto;
-        width: max-content;
+        width: fit-content;
         height: 80%;
     }
 
@@ -177,7 +179,7 @@ img{
     .flex-container >  .content{
         border: 2px solid black;
         padding: 10px;
-/*         height: fit-content; */
+        height: fit-content;
          margin-top: 5px;
     }
 

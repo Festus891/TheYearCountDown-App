@@ -163,7 +163,7 @@ img{
         align-items: center;
         padding: auto;
         width: fit-content;
-        height: 80%;
+/*         height: 80%; */
     }
 
 .main_container{
@@ -172,7 +172,7 @@ img{
 }
 
     .flex-container > div > h3{
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-family: 'Sansita', sans-serif;
     }
 
@@ -185,7 +185,7 @@ img{
 
 
     .flex-container > div > p{
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     .take_charge{
